@@ -1,0 +1,13 @@
+1) Acesse a pasta Linux Terminal/Arquivos Necessários
+
+2) Abra o terminal do linux compile com os comandos abaixo
+
+g++ -o Thread.o -c Thread.cpp
+g++ -o Mutex.o -c Mutex.cpp
+g++ -o Producer.o -c Producer.cpp
+g++ -o Consumer.o -c Consumer.cpp
+g++ -c Main.cpp -o Main.o
+g++ -o Main Main.o Thread.o Mutex.o \Producer.o Consumer.o -lstdc++ -lpthread
+
+3) Execute o projeto com o comando
+./Main

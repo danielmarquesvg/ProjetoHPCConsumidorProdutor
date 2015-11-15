@@ -1,0 +1,11 @@
+Para rodar o projeto Produtor Consumidor no windows, algumas ações serão necessárias
+
+1) É necessário a instalação da biblioteca pthreads no visual studio
+para isto, leia o arquivo "Installing pthreads for Visual Studio"
+O mesmo conterá todas as informações necessárias para configurar o ambiente
+de desenvolvimento com a biblioteca phtread.
+
+2) para facilitar e não correr risco, está contido na mesma pasta o arquivo zipada
+da pthread.
+
+3) execute o projeto contido na pasta HPCConsumidorProdutor.
